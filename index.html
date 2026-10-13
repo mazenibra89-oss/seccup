@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Second Cup Coffee - Good Coffee, Better Days</title>
+  <meta name="description"
+    content="Second Cup Coffee Surabaya - More than just coffee, it's a place to take a break and be yourself. Nikmati kopi pilihan, makanan lezat, suasana cozy, dan live music.">
+  <link rel="icon" type="image/jpeg" href="/images/logoseccup.jpeg">
+
+  <!-- Google Fonts: Fredoka (bouncy rounded brand display), Patrick Hand & Caveat (doodles), Plus Jakarta Sans (clean body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fredoka:wght@600;700;800&family=Patrick+Hand&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+  <!-- BACKGROUND WATERCOLOR SHAPES -->
+  <div class="ambient-watercolor blob-top-left" aria-hidden="true"></div>
+  <div class="ambient-watercolor blob-top-right" aria-hidden="true"></div>
+  <div class="ambient-watercolor blob-mid-right" aria-hidden="true"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand" aria-label="Second Cup Coffee Home">
+        <img src="/images/logoseccup.jpeg" alt="Second Cup Coffee" class="brand-logo-img">
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Visit Us CTA Button -->
+      <div class="nav-actions">
+        <button type="button" class="btn btn-visit" id="navVisitBtn">
+          <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+          <span>Visit Us</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu Navigasi">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+
+        <!-- Hero Left Content -->
+        <div class="hero-content">
+          <!-- Doodle Header -->
+          <div class="doodle-badge">
+            <svg class="doodle-sparkle-left" viewBox="0 0 28 20" fill="none" stroke="#1A4329" stroke-width="2.5"
+              stroke-linecap="round">
+              <line x1="2" y1="18" x2="10" y2="8"></line>
+              <line x1="12" y1="18" x2="16" y2="4"></line>
+            </svg>
+            <div class="doodle-text-group">
+              <span class="doodle-text">Good Coffee</span>
+              <span class="doodle-text script-accent">Better Days</span>
+            </div>
+            <svg class="doodle-sparkle-right" viewBox="0 0 28 20" fill="none" stroke="#1A4329" stroke-width="2.5"
+              stroke-linecap="round">
+              <line x1="18" y1="8" x2="26" y2="18"></line>
+              <line x1="12" y1="4" x2="16" y2="18"></line>
+            </svg>
+          </div>
+
+          <!-- Main Hero Title -->
+          <h1 class="hero-title">
+            <span class="title-second">SECOND CUP</span>
+            <span class="title-coffee">COFFEE</span>
+          </h1>
+
+          <!-- Hero Subtitle -->
+          <p class="hero-description">
+            More than just coffee, it's a place to take a break and be yourself.
+          </p>
+
+          <!-- Hero CTA Button -->
+          <div class="hero-cta-wrapper">
+            <a href="#menu" class="btn btn-primary" id="heroMenuBtn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+                <circle cx="8" cy="14" r="1" fill="currentColor"></circle>
+                <circle cx="12" cy="14" r="1" fill="currentColor"></circle>
+                <circle cx="16" cy="14" r="1" fill="currentColor"></circle>
+              </svg>
+              <span>Our Menu</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Decorative bottom dashes -->
+          <div class="hero-bottom-doodles" aria-hidden="true">
+            <span class="dash-mark d1"></span>
+            <span class="dash-mark d2"></span>
+          </div>
+        </div>
+
+        <!-- Hero Right Visual (Cafe Ambience Interior) -->
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="/images/ruangan.jpg" alt="Suasana interior nyaman Second Cup Coffee Surabaya"
+              class="hero-cup-img">
+
+            <!-- Interactive Floating Badge (Good Vibes Only & Smiley) -->
+            <div class="vibe-stamp" aria-hidden="true">
+              <div class="vibe-text">
+                <span class="vibe-line">Good</span>
+                <span class="vibe-line">Vibes</span>
+                <span class="vibe-line">Only</span>
+              </div>
+              <div class="smiley-circle">
+                <svg viewBox="0 0 36 36" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+                  <circle cx="18" cy="18" r="16"></circle>
+                  <circle cx="13" cy="14" r="1.5" fill="#ffffff"></circle>
+                  <circle cx="23" cy="14" r="1.5" fill="#ffffff"></circle>
+                  <path d="M12 21c1.5 3 4 4.5 6 4.5s4.5-1.5 6-4.5"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Floating Coffee Beans micro-accent -->
+            <div class="floating-bean bean-1" aria-hidden="true">☕</div>
+            <div class="floating-bean bean-2" aria-hidden="true">🍃</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS / FEATURES BAR -->
+    <section class="features-bar-section">
+      <div class="container">
+        <div class="features-card">
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- Quality Coffee Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+            </div>
+            <span class="feature-text">Quality Coffee</span>
+          </div>
+
+          <div class="feature-divider" aria-hidden="true"></div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- Cozy Space (People) Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <span class="feature-text">Cozy Space</span>
+          </div>
+
+          <div class="feature-divider" aria-hidden="true"></div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- Live Music Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+            </div>
+            <span class="feature-text">Live Music & Events</span>
+          </div>
+
+          <div class="feature-divider" aria-hidden="true"></div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <!-- Free WiFi Icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                <line x1="12" y1="20" x2="12.01" y2="20"></line>
+              </svg>
+            </div>
+            <span class="feature-text">Free WiFi</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR MENU SECTION -->
+    <section class="menu-section" id="menu">
+      <div class="container menu-container">
+
+        <!-- Menu Left Info -->
+        <div class="menu-intro">
+          <div class="menu-doodle-wrapper">
+            <span class="menu-doodle-word">Our</span>
+            <svg class="menu-doodle-sparks" viewBox="0 0 24 16" fill="none" stroke="#1A4329" stroke-width="2.5"
+              stroke-linecap="round">
+              <line x1="2" y1="12" x2="8" y2="4"></line>
+              <line x1="10" y1="12" x2="14" y2="2"></line>
+            </svg>
+          </div>
+
+          <h2 class="menu-main-title">Menu</h2>
+
+          <p class="menu-description">
+            Dari kopi yang nikmat hingga makanan favorit, semua ada di sini untuk menemani harimu.
+          </p>
+
+          <div class="menu-btn-group">
+            <button type="button" class="btn btn-primary btn-menu-cta" id="viewFullMenuBtn">
+              <span>View Full Menu</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+            <button type="button" class="btn btn-secondary-pdf" id="openPdfMenuBtnHero">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              <span>Buku Menu Asli (PDF)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Menu Right 4 Items Cards -->
+        <div class="menu-cards-grid">
+
+          <!-- Item 1: Coffee -->
+          <div class="category-item-card" data-category="coffee" role="button" tabindex="0"
+            aria-label="Lihat Menu Kopi">
+            <div class="card-doodle-top doodle-coffee" aria-hidden="true">
+              <svg viewBox="0 0 44 24" fill="none" stroke="#17482a" stroke-width="2.6" stroke-linecap="round">
+                <circle cx="8" cy="14" r="1.8" fill="#17482a"></circle>
+                <path d="M14 16c4-8 14-8 18 0"></path>
+                <circle cx="36" cy="14" r="1.8" fill="#17482a"></circle>
+              </svg>
+            </div>
+            <div class="category-circle-wrapper">
+              <div class="category-circle-frame">
+                <img src="/menu_crops/cat_coffee_clean.jpg" alt="Pilihan Menu Coffee Second Cup"
+                  class="category-circle-img">
+              </div>
+              <div class="category-pill-badge">
+                <span>Coffee</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Rice Bowl -->
+          <div class="category-item-card" data-category="rice" role="button" tabindex="0"
+            aria-label="Lihat Menu Rice Bowl">
+            <div class="card-doodle-top doodle-crown" aria-hidden="true">
+              <svg viewBox="0 0 36 24" fill="none" stroke="#17482a" stroke-width="2.6" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M4 20h28L30 8l-6 6-6-8-6 8-4-6-4 12z"></path>
+                <circle cx="18" cy="4" r="1.5" fill="#17482a"></circle>
+              </svg>
+            </div>
+            <div class="category-circle-wrapper">
+              <div class="category-circle-frame">
+                <img src="/menu_crops/cat_ricebowl_clean.jpg" alt="Pilihan Menu Rice Bowl Second Cup"
+                  class="category-circle-img">
+              </div>
+              <div class="category-pill-badge">
+                <span>Rice Bowl</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Snack & Burger -->
+          <div class="category-item-card" data-category="burger" role="button" tabindex="0"
+            aria-label="Lihat Menu Snack & Burger">
+            <div class="card-doodle-top doodle-ticks" aria-hidden="true">
+              <svg viewBox="0 0 32 24" fill="none" stroke="#17482a" stroke-width="2.6" stroke-linecap="round">
+                <line x1="16" y1="20" x2="26" y2="4"></line>
+                <line x1="22" y1="20" x2="30" y2="6"></line>
+              </svg>
+            </div>
+            <div class="category-circle-wrapper">
+              <div class="category-circle-frame">
+                <img src="/menu_crops/cat_burger_clean.jpg" alt="Pilihan Menu Snack & Burger Second Cup"
+                  class="category-circle-img">
+              </div>
+              <div class="category-pill-badge">
+                <span>Snack & Burger</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Pastry & Dessert -->
+          <div class="category-item-card" data-category="pastry" role="button" tabindex="0"
+            aria-label="Lihat Menu Pastry & Dessert">
+            <div class="card-doodle-top doodle-squiggle" aria-hidden="true">
+              <svg viewBox="0 0 36 24" fill="none" stroke="#17482a" stroke-width="2.6" stroke-linecap="round">
+                <path d="M6 18l6-10 6 6 6-8 6 12"></path>
+              </svg>
+            </div>
+            <div class="category-circle-wrapper">
+              <div class="category-circle-frame">
+                <img src="/menu_crops/cat_pastry_clean.jpg" alt="Pilihan Menu Pastry & Dessert Second Cup"
+                  class="category-circle-img">
+              </div>
+              <div class="category-pill-badge">
+                <span>Pastry & Dessert</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- FEATURED AUTHENTIC MENU SHOWCASE (DIRECTLY ON LANDING PAGE) -->
+      <div class="container featured-menu-container">
+        <div class="featured-header-row">
+          <div class="featured-title-wrap">
+            <span class="featured-eyebrow">✨ Dari Buku Menu Resmi</span>
+            <h3 class="featured-title">Menu Favorit &amp; Best Seller</h3>
+            <p class="featured-subtitle">Foto asli sajian hidangan Second Cup &amp; BurgerUP Indonesia</p>
+          </div>
+          <!-- Filter Tabs -->
+          <div class="featured-tabs-filter" id="featuredTabsFilter">
+            <button type="button" class="ftab-btn active" data-filter="all">Semua</button>
+            <button type="button" class="ftab-btn" data-filter="coffee">☕ Coffee</button>
+            <button type="button" class="ftab-btn" data-filter="rice">🍚 Rice Bowl</button>
+            <button type="button" class="ftab-btn" data-filter="burger">🍔 Burger &amp; Steak</button>
+            <button type="button" class="ftab-btn" data-filter="snack">🍟 Snack Platter</button>
+            <button type="button" class="ftab-btn" data-filter="pastry">🥐 Pastry &amp; Sweet</button>
+            <button type="button" class="ftab-btn" data-filter="noncoffee">🍵 Matcha &amp; Drinks</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Featured Items Grid -->
+        <div class="featured-cards-grid" id="featuredCardsGrid">
+          <!-- Populated dynamically via JS from authentic menu items -->
+        </div>
+
+        <!-- Banner to Explore More -->
+        <div class="menu-cta-banner">
+          <div class="cta-banner-text">
+            <h4>Ingin lihat menu selengkapnya?</h4>
+            <p>Tersedia lebih dari 100 pilihan makanan, camilan, dan minuman lezat khas kafe kami.</p>
+          </div>
+          <div class="cta-banner-actions">
+            <button type="button" class="btn btn-primary" id="openFullCatalogBtn">
+              <span>Buka Katalog Lengkap</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+            <button type="button" class="btn btn-secondary-pdf" id="openPdfMenuBtnBanner">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              </svg>
+              <span>Buku Menu Asli PDF (34 Hal)</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPECIAL PROMO SECTION -->
+    <section class="promo-section" id="promo">
+      <div class="container">
+        <div class="promo-banner-card">
+
+          <!-- Background Floating Vector Doodles (Coffee Beans & Leaves) -->
+          <div class="promo-bg-elements" aria-hidden="true">
+            <!-- White outlined coffee bean -->
+            <svg class="promo-bean bean-left" viewBox="0 0 32 32" fill="none" stroke="rgba(255,255,255,0.7)"
+              stroke-width="2" stroke-linecap="round">
+              <ellipse cx="16" cy="16" rx="9" ry="13" transform="rotate(-30 16 16)"></ellipse>
+              <path d="M12 7c4 6 4 12 0 18" stroke-linecap="round"></path>
+            </svg>
+            <!-- White outlined coffee bean center -->
+            <svg class="promo-bean bean-mid" viewBox="0 0 32 32" fill="none" stroke="rgba(255,255,255,0.7)"
+              stroke-width="2" stroke-linecap="round">
+              <ellipse cx="16" cy="16" rx="9" ry="13" transform="rotate(45 16 16)"></ellipse>
+              <path d="M9 13c6 4 12 4 14 0" stroke-linecap="round"></path>
+            </svg>
+            <!-- White outlined leaf -->
+            <svg class="promo-leaf leaf-bottom-left" viewBox="0 0 40 40" fill="none" stroke="rgba(255,255,255,0.6)"
+              stroke-width="2" stroke-linecap="round">
+              <path d="M8 32C10 22 20 10 32 8c-2 10-12 22-24 24z"></path>
+              <path d="M8 32c8-8 16-16 22-22"></path>
+            </svg>
+            <!-- White outlined leaf right -->
+            <svg class="promo-leaf leaf-right" viewBox="0 0 36 36" fill="none" stroke="rgba(255,255,255,0.6)"
+              stroke-width="2" stroke-linecap="round">
+              <path d="M6 30C8 20 18 10 30 6c-2 10-12 20-24 24z"></path>
+            </svg>
+          </div>
+
+          <!-- Promo Content Left Column -->
+          <div class="promo-text-column">
+            <!-- Doodle Special Title -->
+            <div class="promo-header-group">
+              <div class="promo-doodle-dashes">
+                <svg viewBox="0 0 24 16" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+                  <line x1="3" y1="12" x2="8" y2="4"></line>
+                  <line x1="10" y1="12" x2="13" y2="2"></line>
+                </svg>
+                <span class="special-word">Special</span>
+                <svg viewBox="0 0 24 16" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round">
+                  <line x1="16" y1="4" x2="21" y2="12"></line>
+                  <line x1="11" y1="2" x2="14" y2="12"></line>
+                </svg>
+              </div>
+
+              <div class="promo-title-row">
+                <h3 class="promo-main-word">PROMO</h3>
+                <!-- Hand-drawn cute cup icon -->
+                <svg class="cup-doodle-svg" viewBox="0 0 36 28" fill="none" stroke="#ffffff" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 6h22v12a6 6 0 0 1-6 6H10a6 6 0 0 1-6-6V6z"></path>
+                  <path d="M26 9h4a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3h-4"></path>
+                  <line x1="2" y1="26" x2="28" y2="26"></line>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Description -->
+            <p class="promo-subtext">
+              Nikmati berbagai promo menarik setiap minggu di <strong>Second Cup!</strong>
+            </p>
+
+            <!-- White Pill Button -->
+            <button type="button" class="btn btn-promo-white" id="promoDetailBtn">
+              <span>Lihat Promo</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Promo Right Side: 2 Promo Graphic Cards -->
+          <div class="promo-cards-container">
+
+            <!-- Promo Card 1: Buy 1 Get 1 -->
+            <div class="promo-deal-card card-bogo" id="promoBogoCard">
+              <div class="deal-img-wrapper">
+                <img src="/images/promo_bogo_clean.png" alt="Promo BUY 1 GET 1 Second Cup Coffee" class="deal-card-img">
+              </div>
+              <div class="deal-tag-overlay">BUY 1 GET 1</div>
+            </div>
+
+            <!-- Promo Card 2: MBG Bundling -->
+            <div class="promo-deal-card card-mbg" id="promoMbgCard">
+              <div class="deal-img-wrapper">
+                <img src="/images/promo_mbg_clean.png" alt="Promo MBG My Bundling Gueh 2 Makanan 2 Minuman"
+                  class="deal-card-img">
+              </div>
+              <div class="deal-tag-overlay">BUNDLING MBG</div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AMBIENCE / MORE THAN JUST COFFEE SECTION -->
+    <section class="about-section" id="about">
+      <div class="container about-container">
+
+        <!-- Left: 3-Photo Collage Grid -->
+        <div class="about-gallery-collage" id="gallery">
+
+          <!-- Photo 1: Big Interior Cafe -->
+          <div class="collage-item collage-interior" data-lightbox="/images/gallery_1_interior.jpg"
+            data-caption="Suasana interior nyaman dan hangat Second Cup Surabaya">
+            <img src="/images/gallery_1_interior.jpg"
+              alt="Interior cafe Second Cup dengan pencahayaan hangat dan meja kayu" class="collage-img">
+            <div class="collage-overlay">
+              <span class="zoom-indicator">🔍 Perbesar</span>
+            </div>
+            <!-- Decorative corner dashes -->
+            <div class="corner-doodle left-doodle" aria-hidden="true">
+              <span class="d-tick"></span>
+              <span class="d-tick"></span>
+            </div>
+          </div>
+
+          <!-- Right: Stacked Photos -->
+          <div class="collage-stacked">
+
+            <!-- Photo 2: Coffee Cup Top -->
+            <div class="collage-item collage-cup" data-lightbox="/images/gallery_2_coffee.jpg"
+              data-caption="Signature iced latte cup Second Cup Coffee">
+              <img src="/images/gallery_2_coffee.jpg" alt="Iced coffee latte Second Cup dengan latar taman hijau"
+                class="collage-img">
+              <div class="collage-overlay">
+                <span class="zoom-indicator">🔍 Perbesar</span>
+              </div>
+              <div class="corner-doodle right-top-doodle" aria-hidden="true">
+                <span class="d-tick"></span>
+                <span class="d-tick"></span>
+              </div>
+            </div>
+
+            <!-- Photo 3: Acoustic Live Music Bottom -->
+            <div class="collage-item collage-music" data-lightbox="/images/gallery_3_music.jpg"
+              data-caption="Live acoustic music & entertainment setiap akhir pekan">
+              <img src="/images/gallery_3_music.jpg" alt="Penampilan live music akustik di Second Cup Coffee"
+                class="collage-img">
+              <div class="collage-overlay">
+                <span class="zoom-indicator">🔍 Perbesar</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Right: Text Description & Feature Badges -->
+        <div class="about-content">
+
+          <!-- Doodle Header -->
+          <div class="about-title-group">
+            <div class="about-doodle-dashes">
+              <svg viewBox="0 0 20 16" fill="none" stroke="#1A4329" stroke-width="2.5" stroke-linecap="round">
+                <line x1="2" y1="12" x2="8" y2="4"></line>
+                <line x1="9" y1="12" x2="13" y2="2"></line>
+              </svg>
+              <span class="about-script">More Than</span>
+              <svg viewBox="0 0 20 16" fill="none" stroke="#1A4329" stroke-width="2.5" stroke-linecap="round">
+                <line x1="14" y1="4" x2="19" y2="12"></line>
+                <line x1="9" y1="2" x2="13" y2="12"></line>
+              </svg>
+            </div>
+
+            <h2 class="about-main-title">
+              Just Coffee
+              <svg class="title-tail-dash" viewBox="0 0 16 16" fill="none" stroke="#1A4329" stroke-width="2.5"
+                stroke-linecap="round">
+                <line x1="3" y1="3" x2="11" y2="13"></line>
+              </svg>
+            </h2>
+          </div>
+
+          <!-- Description with Hand-Drawn Underlines -->
+          <p class="about-paragraph">
+            Nikmati suasana yang nyaman, <span class="doodle-underline">makanan &amp; minuman</span> lezat, serta <span
+              class="doodle-underline">live music</span> dan <span class="doodle-underline">berbagai</span> event seru
+            <span class="doodle-underline">hanya di Second</span> Cup.
+          </p>
+
+          <!-- 3 Feature Badges / Chips -->
+          <div class="about-chips-row">
+
+            <div class="about-chip">
+              <div class="chip-icon">
+                <!-- Armchair / Cozy Interior Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"></path>
+                  <path d="M3 11v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"></path>
+                  <path d="M6 18v2"></path>
+                  <path d="M18 18v2"></path>
+                </svg>
+              </div>
+              <span class="chip-label">Cozy Interior</span>
+            </div>
+
+            <div class="about-chip">
+              <div class="chip-icon">
+                <!-- Live Music Notes Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M9 18V5l12-2v13"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+              </div>
+              <span class="chip-label">Live Music</span>
+            </div>
+
+            <div class="about-chip">
+              <div class="chip-icon">
+                <!-- Special Event Calendar Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                  <path d="M8 14h.01"></path>
+                  <path d="M12 14h.01"></path>
+                  <path d="M16 14h.01"></path>
+                  <path d="M8 18h.01"></path>
+                  <path d="M12 18h.01"></path>
+                </svg>
+              </div>
+              <span class="chip-label">Special Event</span>
+            </div>
+
+          </div>
+
+          <!-- CTA Button -->
+          <div class="about-action">
+            <button type="button" class="btn btn-primary btn-visit-cta" id="aboutVisitBtn">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Visit Us</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="contact">
+
+    <!-- Organic Wave Shape Top -->
+    <div class="footer-wave-shape" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,32 C320,80 480,10 720,40 C960,70 1200,15 1440,35 L1440,80 L0,80 Z" fill="#17482a"></path>
+      </svg>
+    </div>
+
+    <div class="footer-inner">
+      <div class="container">
+
+        <div class="footer-grid">
+
+          <!-- Column 1: Brand Logo -->
+          <div class="footer-col brand-col">
+            <div class="footer-brand">
+              <img src="/images/logo_white.png" alt="Second Cup Coffee" class="footer-logo-img">
+            </div>
+          </div>
+
+          <!-- Column 2: Follow Us -->
+          <div class="footer-col">
+            <h4 class="footer-col-title">Follow Us</h4>
+            <div class="social-icons-row">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+                aria-label="Instagram Second Cup">
+                <!-- Instagram Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+
+              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="social-btn"
+                aria-label="Google Maps Second Cup">
+                <!-- Maps Pin Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 3: Location -->
+          <div class="footer-col">
+            <h4 class="footer-col-title">
+              <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Location</span>
+            </h4>
+            <p class="footer-text-main">Second Cup Surabaya</p>
+            <p class="footer-text-sub">(Jl. ...)</p>
+          </div>
+
+          <!-- Column 4: Opening Hours -->
+          <div class="footer-col">
+            <h4 class="footer-col-title">
+              <svg class="footer-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>Opening Hours</span>
+            </h4>
+            <p class="footer-text-main">Mon - Sun</p>
+            <p class="footer-text-sub">08.00 - 24.00</p>
+          </div>
+
+        </div>
+
+        <!-- Footer Bottom Slogan Line -->
+        <div class="footer-bottom">
+          <div class="slogan-line-left" aria-hidden="true"></div>
+          <span class="footer-slogan">GOOD COFFEE &nbsp;•&nbsp; GOOD FOOD &nbsp;•&nbsp; GOOD VIBES</span>
+          <div class="slogan-line-right" aria-hidden="true"></div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING QUICK WHATSAPP / ORDER BUTTON -->
+  <aside class="floating-wa" id="floatingWa">
+    <a href="https://wa.me/6281234567890?text=Halo%20Second%20Cup%20Coffee,%20saya%20ingin%20tanya%20menu%20dan%20reservasi"
+      target="_blank" rel="noopener noreferrer" class="wa-btn" aria-label="Chat WhatsApp Second Cup">
+      <div class="wa-icon-bubble">
+        <svg viewBox="0 0 24 24" fill="#ffffff" width="24" height="24">
+          <path
+            d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+        </svg>
+      </div>
+      <span class="wa-tooltip">Pesan / Reservasi</span>
+    </a>
+  </aside>
+
+  <!-- FULL MENU INTERACTIVE MODAL -->
+  <div class="modal-backdrop" id="menuModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-tag">Second Cup Catalog</span>
+          <h3 class="modal-title" id="modalMenuTitle">Daftar Menu Lengkap</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="closeMenuModalBtn" aria-label="Tutup Modal">&times;</button>
+      </div>
+
+      <!-- Menu Category Tabs -->
+      <div class="menu-tabs">
+        <button type="button" class="tab-btn active" data-tab="all">Semua</button>
+        <button type="button" class="tab-btn" data-tab="coffee">Coffee</button>
+        <button type="button" class="tab-btn" data-tab="rice">Rice &amp; Bowls</button>
+        <button type="button" class="tab-btn" data-tab="burger">Burger &amp; Steak</button>
+        <button type="button" class="tab-btn" data-tab="snack">Snack &amp; Platter</button>
+        <button type="button" class="tab-btn" data-tab="croissant">Croissant &amp; Dessert</button>
+        <button type="button" class="tab-btn" data-tab="noncoffee">Matcha &amp; Yakult</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="menu-top-notice">
+          <p>✨ <em>Menu resmi BurgerUP x Second Cup Coffee Surabaya. Harga sudah termasuk pajak PB1 10%.</em></p>
+          <button type="button" class="btn-text-pdf" id="openPdfMenuBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <span>Buka Buku Menu PDF (34 Hal) &rarr;</span>
+          </button>
+        </div>
+        <div class="menu-items-list" id="modalItemsList">
+          <!-- Dynamic Menu Items populated via JS -->
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <p class="modal-footer-note">Pesan langsung ke kasir atau via WhatsApp</p>
+        <a href="https://wa.me/6281234567890?text=Halo%20Second%20Cup,%20saya%20ingin%20memesan%20menu" target="_blank"
+          class="btn btn-primary btn-modal-order">
+          <span>Order via WhatsApp</span>
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- PDF BOOK VIEWER MODAL (34 Pages) -->
+  <div class="modal-backdrop" id="pdfMenuModal" aria-hidden="true">
+    <div class="modal-dialog pdf-modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-tag">Buku Menu Asli Kafe (34 Halaman)</span>
+          <h3 class="modal-title">BurgerUP x Second Cup Coffee</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="closePdfMenuModalBtn"
+          aria-label="Tutup Buku Menu">&times;</button>
+      </div>
+
+      <div class="pdf-viewer-toolbar">
+        <button type="button" class="btn-page-nav" id="pdfPrevPageBtn" aria-label="Halaman Sebelumnya">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+          <span>Prev</span>
+        </button>
+        <span class="page-counter-badge" id="pdfCurrentPageDisplay">Halaman 1 dari 34</span>
+        <button type="button" class="btn-page-nav" id="pdfNextPageBtn" aria-label="Halaman Selanjutnya">
+          <span>Next</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body pdf-page-display-body">
+        <div class="pdf-page-wrapper">
+          <img src="/pdf_pages/page_01.jpg" alt="Buku Menu Second Cup" class="pdf-main-page-img" id="pdfViewerImg">
+        </div>
+      </div>
+
+      <div class="pdf-thumbnails-container">
+        <div class="pdf-thumbnails-track" id="pdfThumbnailTrack">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROMO DETAILS MODAL -->
+  <div class="modal-backdrop" id="promoModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-tag">Penawaran Spesial</span>
+          <h3 class="modal-title">Promo Minggu Ini</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="closePromoModalBtn" aria-label="Tutup Modal">&times;</button>
+      </div>
+
+      <div class="modal-body promo-modal-content">
+        <div class="promo-modal-card">
+          <div class="promo-modal-badge">🔥 Promo Terpopuler</div>
+          <div class="promo-modal-grid">
+            <img src="/images/promo_bogo_clean.png" alt="Buy 1 Get 1" class="promo-modal-img">
+            <div class="promo-modal-info">
+              <h4>BUY 1 GET 1 Coffee Series</h4>
+              <p>Dapatkan gratis 1 cup kopi favorit setiap pembelian 1 cup kopi pilihan. Berlaku untuk dine-in dan take
+                away!</p>
+              <ul class="promo-schedule-list">
+                <li><strong>Senin - Selasa:</strong> Es Kopi Susu Aren &amp; Vanilla Latte</li>
+                <li><strong>Rabu - Kamis:</strong> Caramel Macchiato &amp; Americano</li>
+                <li><strong>Jumat - Minggu:</strong> Semua Varian Signature Coffee</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="promo-modal-card">
+          <div class="promo-modal-badge">🍔 Paket Hemat</div>
+          <div class="promo-modal-grid">
+            <img src="/images/promo_mbg_clean.png" alt="MBG My Bundling Gueh" class="promo-modal-img">
+            <div class="promo-modal-info">
+              <h4>MBG (My Bundling Gueh..!!!)</h4>
+              <p>Makan berdua lebih hemat! Paket komplit berisi <strong>2 Makanan + 2 Minuman Segar</strong> pilihan
+                untuk nongkrong seru bareng teman.</p>
+              <p class="promo-price-tag">Hanya <strong>Rp 58.000</strong> <span class="old-price">Rp 85.000</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://wa.me/6281234567890?text=Halo%20Second%20Cup,%20saya%20ingin%20klaim%20promo%20minggu%20ini"
+          target="_blank" class="btn btn-primary btn-modal-order">
+          <span>Klaim Promo Sekarang</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- VISIT US / LOCATION MODAL -->
+  <div class="modal-backdrop" id="visitModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-tag">Kunjungi Kafe Kami</span>
+          <h3 class="modal-title">Second Cup Surabaya</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="closeVisitModalBtn" aria-label="Tutup Modal">&times;</button>
+      </div>
+
+      <div class="modal-body visit-modal-body">
+        <div class="visit-cafe-banner">
+          <img src="/images/gallery_1_interior.jpg" alt="Second Cup Surabaya" class="visit-banner-img">
+        </div>
+
+        <div class="visit-info-card">
+          <div class="visit-info-row">
+            <div class="visit-info-icon">📍</div>
+            <div>
+              <h5>Alamat Lengkap</h5>
+              <p>Jl. Raya Gubeng No. 45, Surabaya, Jawa Timur 60281 (Sebelah Taman Flora)</p>
+            </div>
+          </div>
+
+          <div class="visit-info-row">
+            <div class="visit-info-icon">🕒</div>
+            <div>
+              <h5>Jam Operasional</h5>
+              <p>Senin – Minggu: <strong>08.00 – 24.00 WIB</strong> (Open Everyday)</p>
+            </div>
+          </div>
+
+          <div class="visit-info-row">
+            <div class="visit-info-icon">🎸</div>
+            <div>
+              <h5>Jadwal Live Music</h5>
+              <p>Setiap Jumat &amp; Sabtu malam mulai pukul 19.30 – 22.30 WIB</p>
+            </div>
+          </div>
+
+          <div class="visit-info-row">
+            <div class="visit-info-icon">⚡</div>
+            <div>
+              <h5>Fasilitas Kafe</h5>
+              <p>High-Speed WiFi, Stop Kontak di Setiap Meja, Ruang AC &amp; Smoking Outdoor, Musholla, Toilet Bersih,
+                Area Parkir Luas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer"
+          class="btn btn-primary btn-modal-order">
+          <span>Buka Google Maps</span>
+          <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX IMAGE VIEWER -->
+  <div class="lightbox-backdrop" id="lightboxModal" aria-hidden="true">
+    <div class="lightbox-content">
+      <button type="button" class="lightbox-close" id="closeLightboxBtn" aria-label="Tutup Gambar">&times;</button>
+      <img src="" alt="Preview Gambar" class="lightbox-img" id="lightboxImg">
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
